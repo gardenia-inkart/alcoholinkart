@@ -1,0 +1,159 @@
+@media(max-width:1280px){
+    *{
+        box-sizing: border-box;
+    }
+    .side{
+    display: none;
+    }
+
+    header{
+        background-color: white;
+        height:80px;
+        width:100%;
+        position: fixed;
+        top:0;
+        z-index: 5;
+        display: block;
+        display: flex;
+    }
+    
+    .header-right ul{
+        display: flex;
+        font-size:20px;
+        padding: 0;
+    }
+    /*header-listの行間調整する*/
+    .header-right .top-btn{
+        display: inlne-block;
+        padding-bottom: 300px;
+    }
+    .header-logo{
+        height:80px;
+    }
+    
+    .main{
+    margin:0 auto;
+    text-align: center;
+    width:100%;
+    margin-top:60px;
+    }
+    .footer-left{
+    padding-left:80px;
+    }
+    .footer-right{
+    padding-left:120px;
+    }
+    
+}
+
+@media(max-width:1000px){
+    .ln{
+        flex-direction: column;
+    }
+    .od{
+        flex-direction: column;
+    }
+    .lesson-img{
+        width: 80%;
+        height:auto;
+        margin:0 auto;
+    }
+    .order-img{
+        width:80%;
+        height:auto;
+        margin:0 auto;
+    }
+    .ln-p p{
+        padding-left:80px;
+    }
+    .od-p{
+        display: none;
+    }
+    .od-p2{
+        display: block;
+        text-align: left;
+        padding-top:70px;
+        padding-left: 150px;
+    }
+    .footer-list{
+        flex-direction: column;
+    }
+    .footer-left{
+        margin:0 auto;
+        padding-left:0;
+    }
+    .footer-right{
+        padding-left:0;
+        margin:0 auto;
+        padding-top:80px;
+    }
+    .copyright{
+        padding-bottom:30px;
+    }
+    
+}
+
+
+
+@media(max-width:500px){
+    header{
+        display: none;
+    }
+    .main{
+        margin-top:100px;
+    }
+    h2{
+        font-size: 30px;
+    }
+    p{
+        font-size: 20px;
+    }
+    .footer-right{
+        display: none;
+    }
+    .footer-right2{
+        display: block;
+        text-align: center;
+        margin:0 auto;
+    }
+    .column1{
+        display: flex;
+        padding-top:50px;
+    }
+    .column2{
+        display: flex;
+    }
+    .ln-p{
+        text-align: left;
+        padding-left:0;
+    }
+    .od-p2{
+        text-align: left;
+        padding-left: 80px;
+    }
+    p{
+        line-height: 35px;
+    }
+    .mobile-logo{
+        display: block;
+        height:100px;
+        float:left;
+    }
+    .btn{
+        font-size: 20px;
+        padding: 10px 60px;
+    }
+    #mobile-menu{
+        display: block;
+        padding-top:50px;
+        padding-right: 50px;
+        float: right;
+    }
+    .mobile-top{
+        width: 100%;
+        background-color: white;
+        position: fixed;
+        top:0;
+        z-index: 5;
+    }
+}
