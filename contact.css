@@ -1,0 +1,71 @@
+.side{
+    width:400px;
+    margin:60px 0 0 50px;
+    position: fixed;
+    top:0
+}
+
+li{
+    list-style:none;
+}
+
+.top-btn{
+    color:#737373;
+    text-decoration:none;
+    display:block;
+    padding:10px 0 10px 50px;
+    font-size:25px;
+    font-family: "Courier New";
+    opacity:0.8;
+    letter-spacing: 1px;
+}
+
+.top-btn:hover{
+    opacity:1;
+}
+
+.main{
+    margin-left:500px;
+    flex-grow: 1;
+    width:1000px;
+    margin-top:100px;
+    color:#737373;
+}
+
+.container{
+    margin:0 auto;
+    text-align: center;
+}
+
+iframe{
+    margin-bottom:200px;
+}
+
+header{
+    display: none;
+}
+
+.mobile-logo{
+    display: none;
+}
+
+#mobile-menu{
+    display: none;
+}
+
+.clear{
+    clear: left;
+}
+
+#menu-modal{
+    display: none;
+    width: 300px;
+    background-color: rgba(255, 255, 255, 0.9);
+    position: fixed;
+    top:10px;
+    z-index: 7;
+}
+
+#close-modal{
+    padding:20px;
+}
