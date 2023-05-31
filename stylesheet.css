@@ -1,0 +1,205 @@
+.side{
+    width:400px;
+    margin:60px 0 0 50px;
+    position: fixed;
+    top:0;
+}
+
+li{
+    list-style:none;
+}
+
+.top-btn{
+    color:#737373;
+    text-decoration:none;
+    display:block;
+    padding:10px 0 10px 50px;
+    font-size:25px;
+    font-family: "Courier New";
+    opacity:0.7;
+    letter-spacing: 1px;
+}
+
+.top-btn:hover{
+    opacity:1;
+}
+
+.side-main{
+    display:flex;
+}
+
+.main{
+    margin-left:500px;
+    flex-grow: 1;
+    width:800px;
+    margin-top:30px;
+}
+
+.container{
+    margin:0 auto;
+    text-align: center;
+}
+
+.top-image{
+    width:100%;
+}
+
+.shop-img{
+    width:33%;
+}
+
+h2{
+    font-size:40px;
+    color:#737373;
+    margin-top:200px;
+    margin-bottom: 80px;
+    letter-spacing: 2px;
+}
+
+.btn{
+    display:inline-block;
+    font-size: 25px;
+    background-color: #737373;
+    color:white;
+    opacity: 0.5;
+    padding:10px 50px;
+    border-radius: 7px;
+    margin-top:80px;
+    text-decoration: none;
+    letter-spacing: 1px;
+}
+
+.btn:hover{
+    opacity: 0.7;
+}
+
+.ln{
+    display:flex;
+}
+
+p{
+    font-size: 25px;
+    color: #737373;
+    letter-spacing: 1px;
+    line-height:50px;
+    font-family: "HiraMinProN-W3";
+}
+
+.ln-p{
+    padding-top:70px;
+    padding-left: 50px;
+    text-align: left;
+}
+
+.od{
+    display: flex;
+}
+
+.od-p{
+    padding:30px 80px 0 60px;
+    text-align: left;
+}
+
+.order{
+    margin-bottom:200px;
+}
+
+.footer-list{
+    display: flex;
+}
+
+.footer-right{
+    display: flex;
+    padding-left:300px;
+    padding-top:100px;
+}
+
+.space{
+    padding:0 30px;
+}
+
+.footer-left{
+    padding-left: 300px;
+    display: flex;
+    padding-top:100px;
+}
+
+.fa-instagram{
+    text-decoration: none;
+    padding-left: 15px;
+    padding-top:25px;
+    opacity: 0.8;
+}
+
+.footer-btn{
+    text-decoration: none;
+    font-size: 20px;
+    color:#737373;
+    opacity: 0.7;
+    display: block;
+    padding-top:20px;
+}
+
+.fa-instagram:hover{
+    opacity: 1;
+}
+
+.footer-btn:hover{
+    opacity: 1;
+}
+
+.copyright{
+    margin:100px 0 50px 0;
+    font-size:15px;
+}
+
+.insta{
+    font-size:20px;
+}
+
+footer{
+    height:400px;
+    background-color: white;
+    position: relative;
+    z-index:5;
+}
+
+.od-p2{
+    display: none;
+}
+
+header{
+    display: none;
+}
+
+*{
+    box-sizing: border-box;
+}
+
+.footer-right2{
+    display: none;
+}
+.mobile-logo{
+    display: none;
+}
+
+#mobile-menu{
+    display: none;
+}
+
+.clear{
+    clear: left;
+}
+
+#menu-modal{
+    display: none;
+    width: 300px;
+    background-color: rgba(255, 255, 255, 0.9);
+    position: fixed;
+    top:10px;
+    z-index: 7;
+}
+
+#close-modal{
+    padding:20px;
+}
