@@ -1,0 +1,64 @@
+@media(max-width:1280px){
+    *{
+        box-sizing: border-box;
+    }
+    .side{
+    display: none;
+    }
+
+    header{
+        background-color: white;
+        height:80px;
+        width:100%;
+        position: fixed;
+        top:0;
+        z-index: 5;
+        display: block;
+        display: flex;
+    }
+    
+    .header-right ul{
+        display: flex;
+        font-size:20px;
+        padding: 0;
+    }
+    
+    .header-right .top-btn{
+        display: inlne-block;
+        padding-bottom: 300px;
+    }
+    .header-logo{
+        height:80px;
+    }
+    
+    .main{
+    margin:0 auto;
+    text-align: center;
+    width:100%;
+    margin-top:160px;
+    }
+}
+
+@media(max-width:500px){
+    header{
+        display: none;
+    }
+    #mobile-menu{
+        display: block;
+        padding-top:50px;
+        padding-right: 50px;
+        float: right;
+    }
+    .mobile-top{
+        width: 100%;
+        background-color: white;
+        position: fixed;
+        top:0;
+        z-index: 5;
+    }
+    .mobile-logo{
+        height:100px;
+        display: block;
+        float: left;
+    }
+}
