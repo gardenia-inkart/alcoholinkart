@@ -43,6 +43,9 @@
     header{
         display: none;
     }
+    .main{
+        margin-top:250px;
+    }
     #mobile-menu{
         display: block;
         padding-top:50px;
