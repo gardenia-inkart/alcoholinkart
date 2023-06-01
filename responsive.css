@@ -71,7 +71,7 @@
         padding-left: 150px;
     }
    .top-btn{
-        font-size: 40px;
+        font-size: 50px;
         padding-bottom: 30px;
     }
     .footer-list{
@@ -87,7 +87,7 @@
         padding-top:80px;
     }
     .footer-btn{
-        font-size: 38px;
+        font-size: 48px;
     }
     .copyright{
         padding-bottom:30px;
@@ -99,7 +99,7 @@
         margin-top:150px;
     }
     h2{
-        font-size: 75px;
+        font-size: 90px;
     }
     p{
         font-size: 55px;
@@ -133,7 +133,7 @@
         float:left;
     }
     .btn{
-        font-size: 40px;
+        font-size: 50px;
         padding: 20px 100px;
     }
     #mobile-menu{
@@ -155,6 +155,9 @@
     }
    .fa-instagram{
         padding-top:30px;
+    }
+   .copyright{
+        font-size: 30px;
     }
 }
 
