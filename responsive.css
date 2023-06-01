@@ -90,7 +90,8 @@
         font-size: 48px;
     }
     .copyright{
-        padding-bottom:30px;
+        padding-bottom:50px;
+       font-size: 30px;
     }
     header{
         display: none;
@@ -102,8 +103,8 @@
         font-size: 90px;
     }
     p{
-        font-size: 55px;
-        line-height: 50px;
+        font-size: 50px;
+        line-height: 55px;
     }
     .footer-right{
         display: none;
@@ -155,9 +156,6 @@
     }
    .fa-instagram{
         padding-top:30px;
-    }
-   .copyright{
-        font-size: 30px;
     }
 }
 
