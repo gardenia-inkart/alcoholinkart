@@ -63,9 +63,13 @@
     }
     h1{
         font-size: 75px;
+        padding-bottom: 80px;
     }
     h2{
         font-size: 50px;
+       padding-bottom: 50px;
+        margin-bottom: 80px;
+       padding-top:60px;
     }
     p{
         font-size: 45px;
@@ -75,7 +79,7 @@
         font-size: 40px;
     }
     .main{
-        margin-top:150px;
+        margin-top:250px;
     }
     .container{
             margin-top:80px;
