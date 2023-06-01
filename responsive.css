@@ -99,7 +99,7 @@
     }
     p{
         font-size: 35px;
-        line-height: 35px;
+        line-height: 50px;
     }
     .footer-right{
         display: none;
@@ -122,7 +122,6 @@
     }
     .od-p2{
         text-align: left;
-       line-height:40px;
         padding-left: 80px;
     }
     .mobile-logo{
@@ -146,6 +145,12 @@
         top:0;
         z-index: 5;
         display: block;
+    }
+   .insta{
+        font-size: 35px;
+    }
+   .fa-instagram{
+        padding-top:30px;
     }
 }
 
