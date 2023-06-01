@@ -133,7 +133,7 @@ h3{
     padding-bottom: 15px;
     margin-bottom: 30px;
     margin-top: 80px;
-    font-size: 20px;
+    font-size: 25px;
 }
 
 header{
@@ -147,27 +147,46 @@ header{
     display: none;
 }
 
-.mobile-logo{
-    display: none;
-}
-
-#mobile-menu{
-    display: none;
-}
-
 .clear{
     clear: left;
 }
 
+.mobile-top{
+    display: none;
+}
 #menu-modal{
     display: none;
-    width: 300px;
+    width: 100%;
+    padding-bottom: 60px;
     background-color: rgba(255, 255, 255, 0.9);
     position: fixed;
     top:10px;
     z-index: 7;
 }
 
+#menu-modal ul{
+    border-bottom: 1px solid #737373;
+    padding-top:80px;
+    padding-bottom: 20px;
+}
+
 #close-modal{
-    padding:20px;
+    padding-top:40px;
+    padding-right: 55px;
+    float: right;
+}
+
+#modal-icon{
+    padding-left:60px;
+}
+
+.fa-instagram{
+    text-decoration: none;
+    padding-left: 15px;
+    padding-top:25px;
+    opacity: 0.8;
+}
+
+.fa-instagram:hover{
+    opacity: 1;
 }
