@@ -87,7 +87,7 @@
         padding-top:80px;
     }
     .footer-btn{
-        font-size: 28px;
+        font-size: 38px;
     }
     .copyright{
         padding-bottom:30px;
@@ -99,10 +99,10 @@
         margin-top:150px;
     }
     h2{
-        font-size: 55px;
+        font-size: 75px;
     }
     p{
-        font-size: 35px;
+        font-size: 55px;
         line-height: 50px;
     }
     .footer-right{
@@ -133,7 +133,7 @@
         float:left;
     }
     .btn{
-        font-size: 30px;
+        font-size: 40px;
         padding: 20px 100px;
     }
     #mobile-menu{
