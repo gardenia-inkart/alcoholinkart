@@ -88,6 +88,9 @@
         font-size: 40px;
         padding-bottom: 30px;
     }
+   .li{
+        letter-spacing: 10px;
+    }
     .lum-txt{
         margin-left: 0;
     }
