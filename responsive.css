@@ -83,7 +83,7 @@
         padding-top:80px;
     }
     .footer-btn{
-        font-size: 24px;
+        font-size: 28px;
     }
     .copyright{
         padding-bottom:30px;
@@ -95,10 +95,10 @@
         margin-top:150px;
     }
     h2{
-        font-size: 45px;
+        font-size: 55px;
     }
     p{
-        font-size: 30px;
+        font-size: 35px;
         line-height: 35px;
     }
     .footer-right{
@@ -122,6 +122,7 @@
     }
     .od-p2{
         text-align: left;
+       line-height:40px;
         padding-left: 80px;
     }
     .mobile-logo{
@@ -129,8 +130,8 @@
         float:left;
     }
     .btn{
-        font-size: 25px;
-        padding: 15px 80px;
+        font-size: 30px;
+        padding: 20px 100px;
     }
     #mobile-menu{
         padding-top:30px;
