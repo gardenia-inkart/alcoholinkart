@@ -89,6 +89,7 @@
     .footer-btn{
         font-size: 48px;
        padding-top:40px;
+       font-family:Arial ;
     }
     .copyright{
         padding-bottom:50px;
@@ -102,6 +103,7 @@
     }
     h2{
         font-size: 90px;
+       font-family:Arial;
     }
     p{
         font-size: 50px;
