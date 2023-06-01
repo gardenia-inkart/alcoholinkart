@@ -127,7 +127,7 @@ p{
 .fa-instagram{
     text-decoration: none;
     padding-left: 15px;
-    padding-top:25px;
+    padding-top:12px;
     opacity: 0.8;
 }
 
@@ -179,11 +179,7 @@ header{
 .footer-right2{
     display: none;
 }
-.mobile-logo{
-    display: none;
-}
-
-#mobile-menu{
+.mobile-top{
     display: none;
 }
 
