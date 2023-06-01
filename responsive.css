@@ -47,13 +47,6 @@
 }
 
 @media(max-width:1000px){
-    .images{
-       display:flex;
-       flex-wrap:wrap;
-    }
-    .shop-img{
-       width:50%;
-    }
     .ln{
         flex-direction: column;
     }
