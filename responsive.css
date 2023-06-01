@@ -22,7 +22,7 @@
         font-size:20px;
         padding: 0;
     }
-    /*header-listの行間調整する*/
+    
     .header-right .top-btn{
         display: inlne-block;
         padding-bottom: 300px;
@@ -47,6 +47,13 @@
 }
 
 @media(max-width:1000px){
+    .images{
+       display:flex;
+       flex-wrap:wrap;
+    }
+    .shop-img{
+       width:50%;
+    }
     .ln{
         flex-direction: column;
     }
@@ -95,7 +102,7 @@
 
 
 
-@media(max-width:800px){
+@media(max-width:500px){
     header{
         display: none;
     }
